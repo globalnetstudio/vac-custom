@@ -1,4 +1,4 @@
-<?php $pageTitle= null; $page = 'homepage'; ?>
+<?php $pageTitle= 'Contacto'; $page = 'contact'; ?>
 
 <?php include('./_partials/head.php'); ?>
 
@@ -11,7 +11,7 @@
 	<section>
 		<!-- .content -->
 		<div class="content">
-			Contenido de la página de inicio
+			Contenido de la página de contacto
 		</div>
 		<!-- /.content -->
 	</section>
