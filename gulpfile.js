@@ -5,7 +5,7 @@ var sourcemaps = require('gulp-sourcemaps');
 
 // var minifyCss = require('gulp-minify-css');
 // var gutil = require('gulp-util');
-var notify = require('gulp-notify');
+// var notify = require('gulp-notify');
 
 var browserSync = require('browser-sync').create();
 
@@ -16,7 +16,7 @@ gulp.task('sass', function () {
     .pipe(autoprefixer('last 2 version'))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./css'))
-    .pipe(notify('SASS Compilado Correctamente'))
+    // .pipe(notify('SASS Compilado Correctamente'))
     .pipe(browserSync.reload({stream: true}));
 });
 

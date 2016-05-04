@@ -1,4 +1,4 @@
-<?php $pageTitle= 'Oficinas'; $page = 'offices'; ?>
+<?php $pageTitle= 'Oficinas'; $pageId = 'offices'; ?>
 
 <?php include('./_partials/head.php'); ?>
 

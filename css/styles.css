@@ -1,0 +1,249 @@
+/* INDEX
+ * GENERAL
+ * FOOTER
+ * HOME
+ * NOSOTROS
+ * SERVICIOS
+ * OFICINAS
+ * CONTACTO
+ * FOOTER
+ * RESPONSIVE */
+/* -------------- GENERAL -------------- */
+body {
+  font-family: arial, geneva, sans-serif;
+  margin-top: 145px;
+}
+
+.hide {
+  position: absolute;
+  text-indent: -9999px;
+  left: -9999px;
+}
+
+.center {
+  text-align: center;
+}
+
+.img-responsive {
+  height: auto;
+  width: 100%;
+}
+
+b {
+  font-weight: bold;
+}
+
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.header {
+  background-color: #303030;
+  border-top: solid 10px #000;
+  color: #fff;
+  height: 145px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header .wrapper {
+  margin: 0 auto;
+  width: 980px;
+}
+
+.header .logo-brand {
+  float: left;
+  width: 40%;
+}
+
+.header .logo {
+  margin: 0 10px 0 0;
+  padding-top: 5px;
+  height: 120px;
+  width: 90px;
+  float: left;
+}
+
+.header .brand-address {
+  float: left;
+  padding-top: 10px;
+  margin: 0 20px;
+  width: 210px;
+}
+
+.header .brand-address .brand {
+  margin: 2px 0 5px;
+}
+
+.header .brand-address .brand img {
+  max-width: 205px;
+  width: 100%;
+  height: auto;
+}
+
+.header .brand-address .address {
+  font-size: 8px;
+  line-height: 10px;
+  text-align: center;
+}
+
+.header .menu-social {
+  float: left;
+  width: 60%;
+}
+
+.header .menu {
+  float: left;
+  width: 500px;
+}
+
+.header .menu li {
+  float: left;
+}
+
+.header .menu li.active a {
+  background-color: #000;
+  border-bottom: #fff solid 5px;
+}
+
+.header .menu li.active a:hover {
+  text-decoration: none;
+}
+
+.header .menu li a:hover {
+  text-decoration: underline;
+}
+
+.header .menu a {
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  height: 135px;
+  padding: 55px 20px;
+  text-decoration: none;
+}
+
+.header .social-buttons {
+  float: right;
+  min-width: 60px;
+  width: 60px;
+  height: 135px;
+  padding: 54px 0;
+}
+
+.header .social-buttons i {
+  font-size: 22px;
+}
+
+.header .social-buttons i.icon-facebook {
+  color: #303030;
+  position: relative;
+  background-color: #c1c1c1;
+  border-radius: 2px;
+  padding: 3px 2px 0;
+  margin-left: 5px;
+  margin-bottom: -4px;
+  display: inline-block;
+  height: 19px;
+  top: 1px;
+  font-size: 18px;
+}
+
+.header .social-buttons a {
+  text-decoration: none;
+  color: #c1c1c1;
+}
+
+.carousel {
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.carousel .flex-slider {
+  position: relative;
+  z-index: 0;
+}
+
+.carousel .flex-control-nav {
+  display: none;
+}
+
+.carousel .custom-navigation {
+  margin: 0 auto;
+  text-align: right;
+  width: 980px;
+  position: relative;
+  top: -25px;
+  right: 0;
+  margin-top: -35px;
+}
+
+.carousel .custom-navigation a {
+  background-color: #ccced2;
+  border-radius: 5px;
+  color: #50504f;
+  display: inline-block;
+  height: 35px;
+  text-decoration: none;
+  width: 38px;
+  font-size: 25px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.carousel .custom-navigation .left {
+  margin-right: 5px;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  height: 50px;
+  padding: 17px;
+}
+
+.footer .wrapper {
+  margin: 0 auto;
+  width: 980px;
+}
+
+.footer .copyright {
+  float: left;
+}
+
+.footer .created-by {
+  float: right;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  height: 50px;
+  padding: 17px;
+}
+
+.footer .wrapper {
+  margin: 0 auto;
+  width: 980px;
+}
+
+.footer .copyright {
+  float: left;
+}
+
+.footer .created-by {
+  float: right;
+}
+
+/*# sourceMappingURL=styles.css.map */
