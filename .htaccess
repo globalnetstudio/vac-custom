@@ -1,9 +1,10 @@
 <IfModule mod_rewrite.c>
-	# Activar RewriteEngine
-	RewriteEngine on
-	 
-	RewriteRule ^nosotros/?$ nosotros.php
-	RewriteRule ^servicios/?$ servicios.php
-	RewriteRule ^oficinas/?$ oficinas.php
-	RewriteRule ^contacto/?$ contacto.php
+# Activar RewriteEngine
+RewriteEngine on
+ 
+RewriteRule ^nosotros/?$ nosotros.php
+RewriteRule ^servicios/?$ servicios.php
+RewriteRule ^oficinas/?$ oficinas.php
+RewriteRule ^contacto/?$ contacto.php
+RewriteRule ^gracias/?$ gracias.php
 </IfModule>
