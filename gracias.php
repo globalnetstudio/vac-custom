@@ -1,4 +1,4 @@
-<?php session_start(); $pageId= "thanks"; ?>
+<?php ob_start(); session_start(); $pageId= "thanks"; ?>
 
 <?php if(isset($_SESSION['mail-sended']) && $_SESSION['mail-sended'] == true) : ?>
 
@@ -35,4 +35,4 @@
 	<?php header('Location: /contacto'); exit(); ?>
 <?php endif; ?>
 
-<?php $_SESSION = []; session_destroy(); ?>
+<?php ob_end_flush(); $_SESSION = []; session_destroy(); ?>

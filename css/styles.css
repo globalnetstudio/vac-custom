@@ -136,17 +136,14 @@ b {
   float: left;
 }
 
-.header .menu li.active a {
+.header .menu li.active a,
+.header .menu li a:hover {
   background-color: #000;
   border-bottom: #fff solid 5px;
 }
 
 .header .menu li.active a:hover {
   text-decoration: none;
-}
-
-.header .menu li a:hover {
-  text-decoration: underline;
 }
 
 .header .menu a {
