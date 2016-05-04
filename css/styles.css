@@ -11,7 +11,7 @@
 /* -------------- GENERAL -------------- */
 body {
   font-family: arial, geneva, sans-serif;
-  margin-top: 145px;
+  margin-top: 10px;
 }
 
 .content {
@@ -69,16 +69,21 @@ b {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.header {
-  background-color: #303030;
-  border-top: solid 10px #000;
-  color: #fff;
-  height: 145px;
-  position: fixed;
+.blackline {
+  background-color: #000;
+  height: 10px;
   width: 100%;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
+}
+
+.header {
+  background-color: #303030;
+  color: #fff;
+  height: 145px;
+  width: 100%;
 }
 
 .header .wrapper {
