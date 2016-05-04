@@ -37,7 +37,51 @@
 		<?php if($pageId == 'contact') : ?>
 		<script>
 			$(function() {
-				// $("#contactForm").validate();
+				$("#contactForm").validate({
+					rules: {
+						firstName: {
+							required: true,
+							minlength: 3
+							
+						},
+						lastName: {
+							required: true,
+							minlength: 3
+						},
+						email: {
+							required: true,
+							email: true
+						},
+						phone: {
+							required: true,
+							minlength: 4
+						},
+						questionComment: {
+							required: true,
+							minlength: 5
+						}
+					},
+					messages: {
+						firstName: {
+							required: "* Escriba su nombre",
+							minlength: "* Escriba por lo menos 4 caracteres"
+						},
+						
+						lastName: {
+							required: "* Escriba su apellido",
+							minlength: "* Escriba por lo menos 4 caracteres"
+						},
+						phone: {
+							required: "* Escriba su teléfono (con lada)",
+							minlength: "* Escriba por lo menos 4 caracteres"
+						},
+						email: "* Formato Inválido",
+						questionComment: {
+							required: "* Escriba sus preguntas y comentarios",
+							minlength: "* Escriba por lo menos 3 caracteres"
+						},
+					}
+				});
 			});
 		</script>
 		<?php endif; ?>
