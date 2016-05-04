@@ -11,7 +11,9 @@
 	<section>
 		<!-- .content -->
 		<div class="content">
-			Contenido de la página de oficinas
+			Nuestra Red
+
+			Cada día crecemos y nos consolidamos mas, a través de nuestras  filiales,  en GUADALAJARA, MANZANILLO, TIJUANA,  con el objetivo de dar apoyo y atención a nuestros clientes en cualquiera de nuestras filiales brindándoles un servicio profesional.
 		</div>
 		<!-- /.content -->
 	</section>

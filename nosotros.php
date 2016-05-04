@@ -11,7 +11,21 @@
 	<section>
 		<!-- .content -->
 		<div class="content">
-			Contenido de la página de nosotros
+			Nosotros
+
+			Contamos con una infraestructura y tecnología avanzada que nos permite competir en las estructuras de los mercados globales, a fin de proporcionar los servicios de solución inmediata  al requerimiento de nuestros clientes. 
+
+			Misión
+
+			Brindar un servicio de CALIDAD que simplifique las operaciones en Comercio Exterior de nuestros 
+			clientes, siendo principal apoyo de su empresa para la planeación logística , bajo una seguridad 
+			operativa y jurídica en el proceso de despacho aduanero, Estableciendo relaciones a largo plazo. 
+
+			Visión
+
+			Promover el despacho de mercancías en los 
+			diferentes regimenes aduaneros previstos en la ley, 
+			y dentro de este marco generar y gestionar el bajo costo de operación para la competitividad de sus mercancías en el mercado nacional.
 		</div>
 		<!-- /.content -->
 	</section>

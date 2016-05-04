@@ -31,7 +31,7 @@
 			});
 		</script>
 		
-		<?php if($page == 'contact') : ?>
+		<?php if($pageId == 'contact') : ?>
 		<script>
 			$(document).ready(function() {
 				$("#contactForm").validate();

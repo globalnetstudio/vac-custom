@@ -11,7 +11,9 @@
 	<section>
 		<!-- .content -->
 		<div class="content">
-			Contenido de la página de servicios
+			Servicios
+
+			VAC CUSTOMS LINKS SC., debidamente constituida de acuerdo a las leyes mexicanas empresa profesional dedicada a realizar, gestionar y llevar a cabo todo tipo de trámite que se relacione con el trafico y comercio internacional, (despacho de mercancía importaciones y exportaciones), consolidación, desconsolidaciòn de todo tipo de carga aérea, terrestre, marítima y mixta nacional o internacional, asesorìa en materia aduanal y gestión fiscal, entre otros. 
 		</div>
 		<!-- /.content -->
 	</section>

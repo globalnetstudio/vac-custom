@@ -11,7 +11,9 @@
 	<section>
 		<!-- .content -->
 		<div class="content">
-			Contenido de la página de contacto
+			Contacto
+
+			Envíanos tus dudas o comentarios a través de nuestro formulario de contacto.
 		</div>
 		<!-- /.content -->
 	</section>
