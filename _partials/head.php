@@ -20,16 +20,6 @@
 	    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	  <![endif]-->
-
-		<!-- Google Fonts -->
-	  
-
-		<!-- Picturefill -->
-		<script>
-    	// Picture element HTML5 shiv
-    	document.createElement( "picture" );
-  	</script>
-	  <script src="./js/picturefill.min.js" async></script>
 	</head>
 
 	<body id="<?php echo (isset($pageId)) ? $pageId : null ?>">

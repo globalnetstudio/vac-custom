@@ -22,6 +22,9 @@
 		<script src="./js/jquery.min.js"></script>
 		<script src="./js/jquery.flexslider.min.js"></script>
 		<script src="./js/jquery-validate.min.js"></script>
+		<!--[if lt IE 10]>
+			<script src="./js/placeholders.min.js"></script>
+	  	<![endif]-->
 		<script>
 			$(function() {
 				$('.flexslider').flexslider({
@@ -33,8 +36,9 @@
 		
 		<?php if($pageId == 'contact') : ?>
 		<script>
-			$(document).ready(function() {
-				$("#contactForm").validate();
+			$(function() {
+				// $("#contactForm").validate();
+			});
 		</script>
 		<?php endif; ?>
 	</body>
