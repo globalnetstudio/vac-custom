@@ -15,7 +15,9 @@ body {
 }
 
 .content {
+  margin: 0 auto;
   min-height: 400px;
+  width: 980px;
 }
 
 .hide {
@@ -41,6 +43,30 @@ b {
   display: table;
   content: "";
   clear: both;
+}
+
+.content h2 {
+  text-align: center;
+  margin: 20px 0 30px;
+  background-color: #303030;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 24px;
+  position: relative;
+  font-family: Cabin, sans-serif, Arial, Verdana, Geneva;
+}
+
+.content h2:after {
+  content: "";
+  position: absolute;
+  width: 96%;
+  height: 10px;
+  background-color: transparent;
+  left: 2%;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .header {
@@ -209,6 +235,8 @@ b {
 }
 
 .bottom-address {
+  border-top: solid 1px #999;
+  padding-top: 30px;
   color: #7c8989;
   margin-bottom: 30px;
 }
@@ -244,11 +272,6 @@ b {
 .bottom-address p i.icon-phone, .bottom-address p i.icon-mail {
   font-size: 22px;
   top: -3px;
-}
-
-#home .content {
-  margin: auto;
-  width: 980px;
 }
 
 #home .services {
@@ -305,9 +328,168 @@ b {
 }
 
 #home .solutions {
-  padding-bottom: 20px;
   margin-bottom: 30px;
-  border-bottom: solid 1px #999;
+}
+
+#about h2 + p {
+  color: #41303d;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#about .mission,
+#about .vission {
+  margin-bottom: 30px;
+}
+
+#about .mission img,
+#about .vission img {
+  float: left;
+}
+
+#about .mission .information,
+#about .vission .information {
+  float: right;
+  width: 400px;
+}
+
+#about .mission .information h3,
+#about .vission .information h3 {
+  font-family: Cabin, sans-serif, Arial, Verdana, Geneva;
+  text-align: center;
+  margin: 5px 0 30px;
+  background-color: #303030;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 22px;
+  position: relative;
+}
+
+#about .mission .information h3:after,
+#about .vission .information h3:after {
+  content: "";
+  position: absolute;
+  width: 96%;
+  height: 10px;
+  background-color: transparent;
+  left: 2%;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#about .mission .information p,
+#about .vission .information p {
+  text-align: justify;
+  line-height: 22px;
+  font-family: Cabin, sans-serif, Arial, Verdana, Geneva;
+  color: #41403d;
+}
+
+#services h2 + p {
+  text-align: justify;
+  margin-bottom: 30px;
+  color: #41403d;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+#offices .wrapper {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#offices img {
+  position: relative;
+  z-index: 0;
+}
+
+#offices .information {
+  width: 430px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  z-index: 10;
+}
+
+#offices h3 {
+  color: #303030;
+  font-family: Cabin, Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+#offices h3 + p {
+  color: #41403d;
+  font-family: Cabin, Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 22px;
+}
+
+#contact h2 + p {
+  text-align: center;
+  font-size: 13px;
+  color: #7c7b7c;
+  font-family: Cabin, Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+#contact .input-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#contact .input-group > input {
+  color: #a1a1a1;
+  font-size: 13px;
+  padding: 1em 1.5em;
+  border: solid 1px #c7c7c7;
+  width: 24%;
+  display: block;
+  float: left;
+  margin-right: 1%;
+}
+
+#contact .input-group > input:last-child {
+  margin-right: 0;
+  width: 25%;
+}
+
+#contact textarea {
+  border: solid 1px #c7c7c7;
+  color: #a1a1a1;
+  margin-bottom: 10px;
+  padding: 1em 1.5em;
+  width: 100%;
+}
+
+#contact .buttons {
+  margin: 0 auto;
+  width: 175px;
+}
+
+#contact .buttons > input {
+  background-color: #d71c14;
+  color: #fff;
+  border: none;
+  font-size: 11px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#contact h2.map {
+  margin-bottom: 0;
+}
+
+#contact h2.map:after {
+  display: none;
+}
+
+#contact h2.map + iframe {
+  margin-bottom: 30px;
 }
 
 .footer {

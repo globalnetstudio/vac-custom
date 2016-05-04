@@ -26,13 +26,13 @@
 			</div>
 			<!-- /.services -->
 
-			<h2>¡Bienvenidos!</h2>
+			<h2>¡ BIENVENIDOS !</h2>
 
 			<p>Vac Custom Links, S.C. es una empresa privada dentro de empresas de organización de transporte de cargas en Manzanillo, Col.<br>Con 1 empleado, la empresa es un poco más pequeña que el promedio de empresas de organización de transporte de cargas.</p>
 
 			<img class="solutions" src="/images/home/soluciones-seguridad-calidad.jpg" alt="Soluciones, Seguridad y Calidad">
 
-			<?php include_once('./_partials/address.php') ?>
+			<?php include_once('./_partials/address.php'); ?>
 
 		</div>
 		<!-- /.content -->

@@ -11,21 +11,47 @@
 	<section>
 		<!-- .content -->
 		<div class="content">
-			Nosotros
 
-			Contamos con una infraestructura y tecnología avanzada que nos permite competir en las estructuras de los mercados globales, a fin de proporcionar los servicios de solución inmediata  al requerimiento de nuestros clientes. 
+			<h2>NOSOTROS</h2>
 
-			Misión
+			<p>Contamos con una infraestructura y tecnología avanzada que nos permite competir en las estructuras de los mercados globales, a fin de proporcionar los servicios de solución inmediata  al requerimiento de nuestros clientes.</p>
 
-			Brindar un servicio de CALIDAD que simplifique las operaciones en Comercio Exterior de nuestros 
-			clientes, siendo principal apoyo de su empresa para la planeación logística , bajo una seguridad 
-			operativa y jurídica en el proceso de despacho aduanero, Estableciendo relaciones a largo plazo. 
+			<!-- .mission -->
+			<div class="mission clearfix">
 
-			Visión
+				<img src="/images/about/barco-contenedores.jpg" alt="Barco con Contenedores">
 
-			Promover el despacho de mercancías en los 
-			diferentes regimenes aduaneros previstos en la ley, 
-			y dentro de este marco generar y gestionar el bajo costo de operación para la competitividad de sus mercancías en el mercado nacional.
+				<!-- .information -->
+				<div class="information">
+					<h3>Misión</h3>
+					
+					<p>Brindar un servicio de <b>CALIDAD</b> que <b>simplifique</b> las <b>operaciones</b> en Comercio Exterior de nuestros clientes, siendo principal apoyo de su empresa para la <b>planeación logística</b>, bajo una <b>seguridad operativa y jurídica en el proceso de despacho aduanero</b>, estableciendo relaciones a largo plazo.</p>
+				</div>
+				<!-- /.information -->
+
+			</div>
+			<!-- .mission -->
+
+			<!-- .vission -->
+			<div class="vission clearfix">
+
+				<img src="/images/about/camion-contenedor.jpg" alt="Camión contenedor Contenedor">
+				
+				<!-- .information -->
+				<div class="information">
+					<h3>Visión</h3>
+					
+					<p><b>Promover el despacho de mercancías</b> en los 
+						diferentes regimenes aduaneros previstos en la ley, 
+						y dentro de este marco generar y <b>gestionar el bajo costo de operación</b> para la <b>competitividad de sus mercancías en el mercado nacional</b>.</p>
+				</div>
+				<!-- /.information -->
+
+			</div>
+			<!-- /.vission -->
+
+			<?php include_once('./_partials/address.php'); ?>
+
 		</div>
 		<!-- /.content -->
 	</section>

@@ -6,6 +6,7 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Vac Customs Links S.C <?php echo (isset($pageTitle)) ? "- {$pageTitle}" : null; ?></title>
+		<link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
 	  <meta name="description" content="">
 	  <meta name="robots" content="index, follow">
 
