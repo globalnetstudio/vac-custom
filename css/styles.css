@@ -1,14 +1,17 @@
 /* INDEX
- * GENERAL
- * FOOTER
- * HOME
- * NOSOTROS
- * SERVICIOS
- * OFICINAS
- * CONTACTO
- * FOOTER
- * RESPONSIVE */
-/* -------------- GENERAL -------------- */
+ * 01 - GENERAL
+ * 02 - HEADER
+ * 03 - CARRUSEL
+ * 04 - ADDRESS
+ * 05 - HOME
+ * 06 - NOSOTROS
+ * 07 - SERVICIOS
+ * 08 - OFICINAS
+ * 09 - CONTACTO
+ * 10 - VALIDACION
+ * 11 - FOOTER
+ * 12 - GRACIAS */
+/* -------------- 01 - GENERAL -------------- */
 body {
   font-family: arial, geneva, sans-serif;
   margin-top: 145px;
@@ -69,6 +72,7 @@ b {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+/* -------------- 02 - HEADER -------------- */
 .header {
   background-color: #303030;
   border-top: solid 10px #000;
@@ -137,17 +141,14 @@ b {
   float: left;
 }
 
-.header .menu li.active a {
-  background-color: #000;
-  border-bottom: #fff solid 5px;
-}
-
-.header .menu li.active a:hover {
+.header .menu li a {
   text-decoration: none;
 }
 
+.header .menu li.active a,
 .header .menu li a:hover {
-  text-decoration: underline;
+  background-color: #000;
+  border-bottom: #fff solid 5px;
 }
 
 .header .menu a {
@@ -203,6 +204,7 @@ b {
   }
 }
 
+/* -------------- 03 - CARRUSEL -------------- */
 .carousel {
   height: auto;
   min-width: 980px;
@@ -249,11 +251,12 @@ b {
 
 @media (max-width: 980px) {
   .carousel .custom-navigation {
-    width: 960px;
     padding-right: 20px;
+    width: 960px;
   }
 }
 
+/* -------------- 04 - ADDRESS -------------- */
 .bottom-address {
   border-top: solid 1px #999;
   color: #7c8989;
@@ -261,22 +264,19 @@ b {
   padding: 30px 0 0 0;
 }
 
+.bottom-address p {
+  float: left;
+  position: relative;
+  padding-left: 15px;
+}
+
 .bottom-address p:first-child {
   float: left;
   width: 575px;
 }
 
-.bottom-address p {
-  float: left;
-}
-
 .bottom-address p:last-child {
   float: right;
-}
-
-.bottom-address p {
-  position: relative;
-  padding-left: 15px;
 }
 
 .bottom-address p i {
@@ -303,6 +303,7 @@ b {
   }
 }
 
+/* -------------- 05 - HOME -------------- */
 #home .services {
   width: 100%;
 }
@@ -364,6 +365,7 @@ b {
   margin-bottom: 30px;
 }
 
+/* -------------- 06 - NOSOTROS -------------- */
 #about h2 + p {
   color: #41303d;
   font-size: 14px;
@@ -421,6 +423,7 @@ b {
   color: #41403d;
 }
 
+/* -------------- SERVICIOS -------------- */
 #services h2 + p {
   text-align: justify;
   margin-bottom: 30px;
@@ -429,6 +432,7 @@ b {
   line-height: 22px;
 }
 
+/* -------------- 08 - OFICINAS -------------- */
 #offices .wrapper {
   position: relative;
   margin-bottom: 30px;
@@ -462,6 +466,7 @@ b {
   line-height: 22px;
 }
 
+/* -------------- 09 - CONTACTO -------------- */
 #contact p, #contact input, #contact textarea {
   font-family: Cabin, Arial, sans-serif;
 }
@@ -473,23 +478,23 @@ b {
   margin-bottom: 30px;
 }
 
-#contact .input-group {
+#contact #contactForm .input-group {
   width: 100%;
   margin-bottom: 20px;
 }
 
-#contact .form-group {
+#contact #contactForm .input-group .form-group {
   float: left;
   margin-right: 1%;
   width: 24%;
 }
 
-#contact .form-group:last-child {
+#contact #contactForm .input-group .form-group:last-child {
   margin-right: 0;
   width: 25%;
 }
 
-#contact .form-group > input {
+#contact #contactForm .input-group .form-group > input {
   color: #a1a1a1;
   font-size: 13px;
   padding: 1em 1.5em;
@@ -498,7 +503,7 @@ b {
   width: 100%;
 }
 
-#contact textarea {
+#contact #contactForm textarea {
   border: solid 1px #c7c7c7;
   color: #a1a1a1;
   margin-bottom: 10px;
@@ -506,12 +511,12 @@ b {
   width: 100%;
 }
 
-#contact .buttons {
+#contact #contactForm .buttons {
   margin: 0 auto;
   width: 175px;
 }
 
-#contact .buttons > input {
+#contact #contactForm .buttons > input {
   background-color: #d71c14;
   color: #fff;
   cursor: pointer;
@@ -521,7 +526,7 @@ b {
   border-radius: 5px;
 }
 
-#contact .buttons > input[value] {
+#contact #contactForm .buttons > input > input[value] {
   letter-spacing: 2px;
 }
 
@@ -537,6 +542,13 @@ b {
   margin-bottom: 30px;
 }
 
+@media (max-width: 980px) {
+  #contactForm {
+    padding: 0 20px;
+  }
+}
+
+/* -------------- 10 - VALIDACION -------------- */
 .form-errors {
   font-size: 14px;
   color: #a94442;
@@ -575,6 +587,7 @@ textarea + label.error {
   margin-left: .5em;
 }
 
+/* -------------- 11 - FOOTER -------------- */
 .footer {
   background-color: #000;
   color: #fff;
@@ -610,6 +623,7 @@ textarea + label.error {
   }
 }
 
+/* -------------- 12 - GRACIAS -------------- */
 .thanks-content {
   margin: 50px auto;
   width: 980px;
@@ -636,5 +650,3 @@ textarea + label.error {
   line-height: 20px;
   padding: 0 20px;
 }
-
-/*# sourceMappingURL=styles.css.map */
