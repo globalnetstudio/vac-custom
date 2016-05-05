@@ -1,0 +1,38 @@
+/* -------------- 11 - FOOTER -------------- */
+.footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  height: 50px;
+  padding-top: 20px;
+  min-width: 980px;
+  width: 100%;
+
+  .wrapper {
+    margin: 0 auto;
+    width: 980px;
+  }
+  
+  .copyright {
+    float: left;
+  }
+  
+  .created-by {
+    float: right;
+  }
+  
+  .global-net-studio-logo {
+    position: relative;
+    top: 4px;
+    margin-top: -8px;
+  }
+}
+
+
+@media (max-width: 980px) {
+  .footer {
+    .wrapper {
+      width: 940px;
+    }
+  }
+}

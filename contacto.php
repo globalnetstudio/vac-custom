@@ -95,7 +95,7 @@
 
 			<h2 class="map">UBICACIÓN</h2>
 
-			<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5282.9578658298315!2d-103.31231695275754!3d20.562914079008376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f4cd9ea193fb9%3A0x7fa850a095aef471!2sAv.+de+la+Solidaridad+Iberoamericana+3000%2C+Minerales%2C+45693+Las+Pintitas%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1462356187646" width="980" height="388" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5282.9578658298315!2d-103.31231695275754!3d20.562914079008376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f4cd9ea193fb9%3A0x7fa850a095aef471!2sAv.+de+la+Solidaridad+Iberoamericana+3000%2C+Minerales%2C+45693+Las+Pintitas%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1462356187646" width="980" height="388" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
 			<?php include_once('./_partials/address.php'); ?>
 

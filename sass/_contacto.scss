@@ -1,0 +1,91 @@
+/* -------------- 09 - CONTACTO -------------- */
+#contact {
+  p, input, textarea {
+    font-family: Cabin, Arial, sans-serif;
+  }
+
+  h2 + p {
+    text-align: center;
+    font-size: 13px;
+    color: #7c7b7c;
+    margin-bottom: 30px;
+  }
+
+  #contactForm {
+
+    .input-group {
+      width: 100%;
+      margin-bottom: 20px;
+  
+      .form-group {
+        float: left;
+        margin-right: 1%;
+        width: 24%;
+    
+        &:last-child {
+          margin-right: 0;
+          width: 25%;
+        }
+        
+        & > input {
+          color: #a1a1a1;
+          font-size: 13px;
+          padding: 1em 1.5em;
+          border: solid 1px #c7c7c7;
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+
+    textarea {
+      border: solid 1px #c7c7c7;
+      color: #a1a1a1;
+      margin-bottom: 10px;
+      padding: 1em 1.5em;
+      width: 100%;
+    }
+
+    .buttons {
+      margin: 0 auto;
+      width: 175px;
+  
+      & > input {
+        background-color: #d71c14;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        font-size: 11px;
+        padding: 15px;
+        border-radius: 5px;
+  
+        & > input[value] {
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+
+  
+  
+  
+  h2.map {
+    margin-bottom: 0;
+  
+    &:after {
+      display: none;
+    }
+  
+    & + iframe {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  #contactForm {
+    padding: 0 20px;
+  }
+}
+
+
