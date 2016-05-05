@@ -31,8 +31,8 @@
 		<!-- /.thanks-content -->
 	<?php include_once('./_partials/footer.php'); ?>
 
-<?php else: ?>
-	<?php header('Location: /contacto'); exit(); ?>
-<?php endif; ?>
+	<?php ob_end_flush(); $_SESSION = []; session_destroy(); ?>
 
-<?php ob_end_flush(); $_SESSION = []; session_destroy(); ?>
+<?php else: ?>
+	<?php header('Location: /contacto'); ob_end_flush(); exit(); ?>
+<?php endif; ?>
