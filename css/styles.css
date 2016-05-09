@@ -613,26 +613,36 @@ textarea + label.error {
 .footer .wrapper {
   margin: 0 auto;
   width: 980px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.footer .created-by {
-  float: left;
+.footer .wrapper .copyright {
+  -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  padding-left: 8px;
 }
 
-.footer .created-by a {
+.footer .wrapper .created-by {
+  -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  padding-right: 8px;
+  text-align: right;
+}
+
+.footer .wrapper .created-by a {
   text-decoration: none;
   color: #fff;
 }
 
-.footer .created-by a:hover {
+.footer .wrapper .created-by a:hover {
   text-decoration: underline;
 }
 
-.footer .created-by {
-  float: right;
-}
-
-.footer .global-net-studio-logo {
+.footer .wrapper .created-by .global-net-studio-logo {
   position: relative;
   top: 4px;
   margin-top: -8px;

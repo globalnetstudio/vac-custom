@@ -11,29 +11,35 @@
   .wrapper {
     margin: 0 auto;
     width: 980px;
-  }
-  
-  .created-by {
-    float: left;
+    display: flex;
+
+    .copyright {
+      flex: 0 0 50%;
+      padding-left: 8px;
+    } 
     
-    a {
-      text-decoration: none;
-      color: #fff;
-      &:hover {
-        text-decoration: underline;
+    .created-by {
+      flex: 0 0 50%;
+      padding-right: 8px;
+      text-align: right;
+      
+      a {
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .global-net-studio-logo {
+        position: relative;
+        top: 4px;
+        margin-top: -8px;
       }
     }
+    
   }
-  
-  .created-by {
-    float: right;
-  }
-  
-  .global-net-studio-logo {
-    position: relative;
-    top: 4px;
-    margin-top: -8px;
-  }
+
 }
 
 
