@@ -47,11 +47,16 @@
     }
 
     .buttons {
-      margin: 0 auto;
-      width: 175px;
+      display: flex;
+      justify-content: center;
+      
+      & > input:first-child {
+        margin-right: 8px;
+      }
   
       & > input {
-        background-color: #d71c14;
+        background-color: saturate(#ba3731, 15%);
+        
         color: #fff;
         cursor: pointer;
         border: none;
@@ -62,6 +67,10 @@
         & > input[value] {
           letter-spacing: 2px;
         }
+      }
+      
+      & > input:hover {
+        background-color: darken(saturate(#ba3731, 15%), 10%);
       }
     }
   }

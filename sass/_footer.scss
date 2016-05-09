@@ -13,8 +13,16 @@
     width: 980px;
   }
   
-  .copyright {
+  .created-by {
     float: left;
+    
+    a {
+      text-decoration: none;
+      color: #fff;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
   
   .created-by {

@@ -512,12 +512,20 @@ b {
 }
 
 #contact #contactForm .buttons {
-  margin: 0 auto;
-  width: 175px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact #contactForm .buttons > input:first-child {
+  margin-right: 8px;
 }
 
 #contact #contactForm .buttons > input {
-  background-color: #d71c14;
+  background-color: #cc271f;
   color: #fff;
   cursor: pointer;
   border: none;
@@ -528,6 +536,10 @@ b {
 
 #contact #contactForm .buttons > input > input[value] {
   letter-spacing: 2px;
+}
+
+#contact #contactForm .buttons > input:hover {
+  background-color: #9f1e19;
 }
 
 #contact h2.map {
@@ -603,8 +615,17 @@ textarea + label.error {
   width: 980px;
 }
 
-.footer .copyright {
+.footer .created-by {
   float: left;
+}
+
+.footer .created-by a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer .created-by a:hover {
+  text-decoration: underline;
 }
 
 .footer .created-by {
