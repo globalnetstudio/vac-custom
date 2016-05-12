@@ -433,7 +433,7 @@ b {
 }
 
 /* -------------- 08 - OFICINAS -------------- */
-#offices .wrapper {
+#offices .content > .wrapper {
   position: relative;
   margin-bottom: 30px;
 }
@@ -603,15 +603,15 @@ textarea + label.error {
 .footer {
   background-color: #000;
   color: #fff;
-  font-size: 12px;
+  font-size: 12px !important;
   height: 50px;
-  padding-top: 20px;
   min-width: 980px;
   width: 100%;
 }
 
 .footer .wrapper {
   margin: 0 auto;
+  padding-top: 20px;
   width: 980px;
   display: -webkit-flex;
   display: -ms-flexbox;

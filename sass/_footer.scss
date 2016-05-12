@@ -2,14 +2,14 @@
 .footer {
   background-color: #000;
   color: #fff;
-  font-size: 12px;
-  height: 50px;
-  padding-top: 20px;
+  font-size: 12px !important;
+  height: 50px;  
   min-width: 980px;
   width: 100%;
 
   .wrapper {
     margin: 0 auto;
+    padding-top: 20px;
     width: 980px;
     display: flex;
 

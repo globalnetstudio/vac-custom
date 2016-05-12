@@ -8,7 +8,7 @@
 
 					<p class="copyright">Copyright 2015 &copy; Vac Custom Links S.C <span>&#8226; Todos los Derechos Reservados</span></p>
 
-					<p class="created-by"><a href="http://globalnetstudio.com/" target="_blank">Desarrollo por <img class="global-net-studio-logo" src="/images/icons/global-net-studio-logo.png" alt=""> Global Net Studio</a></p>
+					<p class="created-by">Desarrollo por <img class="global-net-studio-logo" src="/images/icons/global-net-studio-logo.png" alt=""> <a href="http://globalnetstudio.com/" target="_blank">Global Net Studio</a></p>
 
 				</div>
 				<!-- /.wrapper -->
