@@ -467,7 +467,7 @@ b {
 }
 
 /* -------------- 09 - CONTACTO -------------- */
-#contact p, #contact input, #contact textarea {
+#contact .content > p, #contact input, #contact textarea {
   font-family: Cabin, Arial, sans-serif;
 }
 
@@ -603,7 +603,7 @@ textarea + label.error {
 .footer {
   background-color: #000;
   color: #fff;
-  font-size: 12px !important;
+  font-size: 11px !important;
   height: 50px;
   min-width: 980px;
   width: 100%;
