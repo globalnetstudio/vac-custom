@@ -7,15 +7,18 @@
 		<ul class="slides">
 
 			<li>
-				<img src="/images/slides/slide.jpg" alt="Transporte Marítimo">
+				<img src="/images/slides/slide-1.jpg" alt="Transporte Marítimo">
+				<p class="flex-caption">Transporte Marítimo</p>
 			</li>
 
 			<li>
-				<img src="/images/slides/slide.jpg" alt="Transporte Marítimo">
+				<img src="/images/slides/slide-2.jpg" alt="Transporte Aereo">
+				<p class="flex-caption">Transporte Aereo</p>
 			</li>
 
 			<li>
-				<img src="/images/slides/slide.jpg" alt="Transporte Marítimo">
+				<img src="/images/slides/slide-3.jpg" alt="Transporte Terrrestre">
+				<p class="flex-caption">Transporte Terrestre</p>
 			</li>
 
 		</ul>

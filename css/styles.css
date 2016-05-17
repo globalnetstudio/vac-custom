@@ -174,10 +174,14 @@ b {
   font-size: 22px;
 }
 
+.header .social-buttons i.icon-twitter {
+  color: #5EA9DD;
+}
+
 .header .social-buttons i.icon-facebook {
-  color: #303030;
+  color: #fff;
   position: relative;
-  background-color: #c1c1c1;
+  background-color: #3765A3;
   border-radius: 2px;
   padding: 3px 2px 0;
   margin-left: 5px;
@@ -222,14 +226,30 @@ b {
   display: none;
 }
 
+.carousel .flex-caption {
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Verdana, sans-serif, Arial;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px;
+  margin: -53px auto 0;
+  padding: 8px 10px;
+  text-align: center;
+  width: 980px;
+  position: relative;
+  bottom: 20px;
+}
+
 .carousel .custom-navigation {
-  margin: 0 auto;
   text-align: right;
   width: 980px;
   position: relative;
-  top: -25px;
+  bottom: 23px;
   right: 0;
-  margin-top: -35px;
+  margin: -45px auto 0;
+  padding: 5px 10px;
 }
 
 .carousel .custom-navigation a {

@@ -14,15 +14,31 @@
   .flex-control-nav {
     display: none;
   }
+
+  .flex-caption {
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Verdana, sans-serif, Arial;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    margin: -53px auto 0;
+    padding: 8px 10px;
+    text-align: center;
+    width: 980px;
+    position: relative;
+    bottom: 20px;
+  }
   
   .custom-navigation {
-    margin: 0 auto;
     text-align: right;
     width: 980px;
     position: relative;
-    top: -25px;
+    bottom: 23px;
     right: 0;
-    margin-top: -35px;
+    margin: -45px auto 0;
+    padding: 5px 10px;
 
     a {
       background-color: #ccced2;
